@@ -10,7 +10,6 @@ function App() {
     setExpenses((prevExpenses) => {
       return [expenseData, ...prevExpenses];
     });
-    // console.log(expenseData);
   };
 
   return (
